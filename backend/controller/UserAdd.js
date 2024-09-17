@@ -8,6 +8,7 @@ class User {
         throw new Error("Preencha os valores.");
       }
       await User.#adicionarUsuario(nome, email, rua, cidade, estado, cep);
+      res.status(200).send({msg: "Dados cadastrados"})
     } catch (error) {
       res.status(401).send({ msg: error.message });
     }
