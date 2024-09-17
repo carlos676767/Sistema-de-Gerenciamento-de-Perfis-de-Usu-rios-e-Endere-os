@@ -1,0 +1,12 @@
+CRUD de Usuários:
+
+Criar um novo usuário com um endereço associado.
+Ler as informações de um usuário e o endereço vinculado.
+Atualizar as informações do usuário e/ou do endereço.
+Deletar um usuário e, automaticamente, remover o endereço associado.
+API Endpoints:
+
+POST /users - Criar um novo usuário com endereço.
+GET /users/:id - Obter detalhes do usuário e endereço.
+PUT /users/:id - Atualizar dados do usuário e endereço.
+DELETE /users/:id - Deletar usuário e o endereço associado.
